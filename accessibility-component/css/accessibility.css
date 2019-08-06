@@ -1,0 +1,74 @@
+ 
+        .acc_banner {
+            position: relative;
+            height: 60px;
+            background-image: url(../images/banner.png);
+            background-size: 100% 60px;
+            background-repeat: no-repeat;
+            padding: 0 20px;
+            display:block;
+            transition:height 1s;
+            -moz-transition:height 1s;
+            -webkit-transition:height 1s;
+            -o-transition-transition:height 1s;
+            overflow:hidden;
+        }
+
+        .acc_banner .banner_first{
+            margin-right:15px;
+        }
+        .acc_banner .banner_first:hover{
+            background-color: rgba(0,0,0,.1);
+        }
+ 
+        .acc_hidden{
+            height:0px;
+        }
+
+
+
+        .acc_magnify {
+            display: inline-block;
+            float: right;
+            height: 60px;
+        }
+
+        .acc_magnify_image {
+            height: 40px;
+
+        }
+
+        .acc_magnify_image img {
+            height: 100%;
+
+        }
+
+        .acc_magnify_text {
+            font-weight: 500;
+            color: red;
+            text-align: center;
+            font-size:12px;
+        }
+        .acc_shrink {
+            display: inline-block;
+            float: right;
+            height: 60px;
+        }
+
+        .acc_shrink_image {
+            height: 40px;
+            margin-top:2px;
+        }
+
+        .acc_shrink_image img {
+            height: 100%;
+
+        }
+
+        .acc_shrink_text {
+            font-weight: 500;
+            color: red;
+            text-align: center;
+            margin-top:-2px;
+            font-size:12px;
+        }

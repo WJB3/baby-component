@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf8">
+    <link rel="stylesheet" href="css/accessibility.css">
+    <script type="text/javascript" src="./js-version.js"></script>
+    <style>
+        body,html{
+            margin:0;
+            padding:0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="text" class="fangda">
+        <div>无障碍浏览</div>
+        <div>无障碍浏览</div>
+        <div>无障碍浏览</div>
+    </div>
+    <div id="text_after" class="suoxiao">关闭无障碍浏览</div>
+    <script>
+      
+    </script>
+    <script>
+        var accessibility = new Accessibility({
+            minFontSize:12,
+            maxFontSize:24
+        });
+        var btn=document.getElementById('text');
+        var btn_after=document.getElementById('text_after');
+        btn.onclick=function(){
+            accessibility.show();
+        }
+        btn_after.onclick=function(){
+            accessibility.hide();
+        }
+    </script>
+</body>
+
+
+
+</html>
